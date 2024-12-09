@@ -1,0 +1,13 @@
+input {
+    display: block;
+    margin: 10px;
+    background-color: palegreen;
+    color: crimson;
+}
+
+input[type="submit"]:hover {cursor: pointer;background: black;}
+
+input[type="submit"] {
+    border-radius: 40px;
+    border: 2px dashed #0083ff;
+}
